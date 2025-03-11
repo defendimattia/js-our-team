@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    width: 1450px;
+    gap: 40px;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    margin: 30px 0;
+}
+
+.card {
+    width: 450px;
+}
+
+.card-img {
+    width: 125px;
+}
+
+.card-info {
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+
+.card {
+    display: flex;
+}
+
+.border {
+    border: 1px dashed red;
+   
+}
