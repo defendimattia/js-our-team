@@ -58,7 +58,7 @@ for (i = 0; i < teamMembers.length; i++) {
   const member = teamMembers[i]
   const toRender = `<div class="card">
     <div class="card-img">
-        <img src="img/male1.png" alt="" id="img">
+        <img src=${member.img} alt="" id=${member.name}>
     </div>
     <div class="card-info">
         <h3 id="name">${member.name}</h3>
