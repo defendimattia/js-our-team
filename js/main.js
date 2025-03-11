@@ -54,6 +54,8 @@ const teamMembers = [
 
 const gridContainerElement = document.querySelector(".grid-container")
 
+let newChild = ""
+
 for (i = 0; i < teamMembers.length; i++) {
   const member = teamMembers[i]
   const toRender = `<div class="card">
@@ -67,7 +69,7 @@ for (i = 0; i < teamMembers.length; i++) {
     </div>
   </div>`
 
-  gridContainerElement.innerHTML += toRender
+  newChild += toRender
 }
 
-
+gridContainerElement.innerHTML = newChild
